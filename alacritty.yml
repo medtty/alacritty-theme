@@ -10,7 +10,7 @@ window:
 
 font:
   normal:
-    family: "SF Mono"
+    family: "SFMono Nerd Font"
     style: Regular
   size: 13.0
 
