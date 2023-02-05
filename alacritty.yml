@@ -1,0 +1,33 @@
+live_config_reload: true
+
+window:
+  opacity: 0.85
+  padding:
+    x: 10
+    y: 12
+  dynamic_padding: false
+  decorations: buttonless
+
+font:
+  normal:
+    family: "SF Mono"
+    style: Regular
+  size: 13.0
+
+colors:
+  # Default colors
+  primary:
+    background: '#263238'
+    foreground: '#C6C6C4'
+
+  # Normal colors
+  normal:
+    black: '#666666'
+    red: '#dd1f1f'
+    green: '#2f9e94'
+    yellow: '#e4e46d'
+    blue: '#24bfb1'
+    magenta: '#7d357d'
+    cyan: '#38a79c'
+    white: '#e5e5e5'
+  theme: Blood-Moon
