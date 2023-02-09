@@ -1,9 +1,5 @@
 <h1> Alacritty Theme </h1>
 
-
-![Alt text](https://raw.githubusercontent.com/medoxb11/alacritty-theme/main/img/screenshot.jpg)
-
-=======
 A simple minimalist alacritty theme 
 
 ![Alt text](https://raw.githubusercontent.com/medoxb11/alacritty-theme/main/img/screenshot.jpg)
