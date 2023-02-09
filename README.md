@@ -16,7 +16,7 @@ or via wget
 sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 ```
 
-If you don't like omz you can install [startship](starship.rs/) either shell or Homebrew
+If you don't like omz you can install [startship](https://starship.rs/) either shell or Homebrew
 
 And you'll need a font to display the icons 
 
