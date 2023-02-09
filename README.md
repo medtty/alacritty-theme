@@ -1,7 +1,14 @@
 <h1> Alacritty Theme </h1>
 
+<<<<<<< HEAD
 ![Alt text](https://raw.githubusercontent.com/medoxb11/alacritty-theme/main/img/screenshot.jpg)
 
+=======
+A simple minimalist alacritty theme 
+
+![Alt text](https://raw.githubusercontent.com/medoxb11/alacritty-theme/main/img/screenshot.jpg)
+
+>>>>>>> origin
 I'm using here omz, install Oh My Zsh by running the command 
 
 via curl (make sure you have curl or wget installed)
@@ -60,6 +67,7 @@ Or just run this and it'll do it for you
 mkdir .conf && cd .conf && mkdir alacritty && cd alacritty && touch alacritty.yml
 ```
 
+<<<<<<< HEAD
 copy the following code and past it in the `alacritty.yml`
 
 ````yaml
@@ -98,3 +106,6 @@ colors:
     cyan: '#38a79c'
     white: '#e5e5e5'
 ```
+=======
+copy the code in `alacritty.yml` and past it in the one you create it
+>>>>>>> origin

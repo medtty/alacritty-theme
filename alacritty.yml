@@ -1,20 +1,21 @@
+# It makes alacritty update itself when we edit the `alacritty.yml`
 live_config_reload: true
 
 window:
-  opacity: 0.70
-  blur: true
-  padding:
+  opacity: .80 # to create a transparent background
+  padding: # just to make beautiful (this is optional)
     x: 10
     y: 12
   dynamic_padding: false
-  decorations: buttonless
+  decorations: buttonless # to remove the top border of the window 
 
 font:
   normal:
-    family: "SFMono Nerd Font"
+    family: "SF Mono" # use this font if you're using starship
     style: Regular
   size: 13.0
 
+# then you can add some colors to the background and the foreground 
 colors:
   # Default colors
   primary:
