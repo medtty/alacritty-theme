@@ -1,6 +1,6 @@
 <h1> Alacritty Theme </h1>
 
-<<<<<<< HEAD
+
 ![Alt text](https://raw.githubusercontent.com/medoxb11/alacritty-theme/main/img/screenshot.jpg)
 
 =======
@@ -8,7 +8,6 @@ A simple minimalist alacritty theme
 
 ![Alt text](https://raw.githubusercontent.com/medoxb11/alacritty-theme/main/img/screenshot.jpg)
 
->>>>>>> origin
 I'm using here omz, install Oh My Zsh by running the command 
 
 via curl (make sure you have curl or wget installed)
