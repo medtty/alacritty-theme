@@ -62,45 +62,4 @@ Or just run this and it'll do it for you
 mkdir .conf && cd .conf && mkdir alacritty && cd alacritty && touch alacritty.yml
 ```
 
-<<<<<<< HEAD
-copy the following code and past it in the `alacritty.yml`
-
-````yaml
-# It makes alacritty update itself when we edit the `alacritty.yml`
-live_config_reload: true
-
-window:
-  opacity: .80 # to create a transparent background
-  padding: # just to make beautiful (this is optional)
-    x: 10
-    y: 12
-  dynamic_padding: false
-  decorations: buttonless # to remove the top border of the window 
-
-font:
-  normal:
-    family: "SF Mono" # use this font if you're using starship
-    style: Regular
-  size: 13.0
-
-# then you can add some colors to the background and the foreground 
-colors:
-  # Default colors
-  primary:
-    background: '#263238'
-    foreground: '#DADADA'
-
-  # Normal colors
-  normal:
-    black: '#DADADA'
-    red: '#dd1f1f'
-    green: '#2f9e94'
-    yellow: '#e4e46d'
-    blue: '#24bfb1'
-    magenta: '#7d357d'
-    cyan: '#38a79c'
-    white: '#e5e5e5'
-```
-=======
-copy the code in `alacritty.yml` and past it in the one you create it
->>>>>>> origin
+Finaly copy the code in `alacritty.yml` and past it in your file
