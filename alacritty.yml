@@ -1,34 +1,65 @@
-# It makes alacritty update itself when we edit the `alacritty.yml`
+# It makes alacritty update itself whenever we edit it an save it 
 live_config_reload: true
 
 window:
-  opacity: .80 # to create a transparent background
-  padding: # just to make beautiful (this is optional)
-    x: 10
-    y: 12
-  dynamic_padding: false
-  decorations: buttonless # to remove the top border of the window 
+  opacity: 0.88 # for transparent background
+  padding:
+    x : 6
+    y : 8
+  dynamic_padding: true
+  decorations: buttonless # to remove the top border of the window
 
 font:
   normal:
-    family: "SF Mono" # use this font if you're using starship
+    family: "MesloLGS NF"
     style: Regular
-  size: 13.0
+  size: 12.0
 
-# then you can add some colors to the background and the foreground 
 colors:
-  # Default colors
   primary:
-    background: '#263238'
-    foreground: '#DADADA'
-
-  # Normal colors
+    background: '#2e3440'
+    foreground: '#d8dee9'
+    dim_foreground: '#a5abb6'
+  cursor:
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  vi_mode_cursor:
+    text: '#2e3440'
+    cursor: '#d8dee9'
+  selection:
+    text: CellForeground
+    background: '#4c566a'
+  search:
+    matches:
+      foreground: CellBackground
+      background: '#88c0d0'
+  colors.footer_bar:
+      background: '#434c5e'
+      foreground: '#d8dee9'
   normal:
-    black: '#DADADA'
-    red: '#dd1f1f'
-    green: '#2f9e94'
-    yellow: '#e4e46d'
-    blue: '#24bfb1'
-    magenta: '#7d357d'
-    cyan: '#38a79c'
-    white: '#e5e5e5'
+    black: '#3b4252'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#88c0d0'
+    white: '#e5e9f0'
+  bright:
+    black: '#4c566a'
+    red: '#bf616a'
+    green: '#a3be8c'
+    yellow: '#ebcb8b'
+    blue: '#81a1c1'
+    magenta: '#b48ead'
+    cyan: '#8fbcbb'
+    white: '#eceff4'
+  dim:
+    black: '#373e4d'
+    red: '#94545d'
+    green: '#809575'
+    yellow: '#b29e75'
+    blue: '#68809a'
+    magenta: '#8c738c'
+    cyan: '#6d96a5'
+    white: '#aeb3bb'
