@@ -1,0 +1,1 @@
+cnord https://raw.githubusercontent.com/medtty/alacritty-theme/main/alacritty.yml
